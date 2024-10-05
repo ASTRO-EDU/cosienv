@@ -1,6 +1,6 @@
 # cosienv: Docker Environment for cosipy
 
-This project provides a Docker-based environment for `cosipy`, a tool used for simulating cosmic ray showers. The environment is set up with `conda` to manage dependencies, including the installation of `cosipy`.
+This project provides a Docker-based environment for `cosipy`. The environment is set up with `conda` to manage dependencies, including the installation of `cosipy`.
 
 > **Note:** Currently, `cosipy` is not compatible with Python 3.11 and 3.12, mainly due to installation issues with a dependency (`astromodels`, see issues [#201](https://github.com/threeML/astromodels/issues/201) and [#204](https://github.com/threeML/astromodels/issues/204)). Therefore, this environment uses Python 3.10.
 
